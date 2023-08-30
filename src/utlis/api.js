@@ -1,0 +1,1 @@
+export const APIURL = 'https://chocolate-ladybug-belt.cyclic.app'
