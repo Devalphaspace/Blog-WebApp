@@ -55,6 +55,7 @@ const PostLists = ({ posts }) => {
                 About us
               </h3>
               <img
+              loading="lazy"
                 className=" w-fit object-cover"
                 src="https://cdn.pixabay.com/photo/2015/09/04/23/28/wordpress-923188_960_720.jpg"
                 alt=""

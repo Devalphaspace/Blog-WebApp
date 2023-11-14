@@ -94,7 +94,7 @@ const RegisterPage = () => {
         {/* right */}
         <div className="flex-1 flex items-center justify-center">
           <div className="flex flex-col md:flex-col-reverse items-center justify-between gap-5 w-[250px]">
-            <img src={RegisterImage} alt="" />
+            <img loading="lazy" src={RegisterImage} alt="" />
             <Link className=" underline" to="/login">
               I'm already member
             </Link>

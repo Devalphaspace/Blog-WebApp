@@ -61,6 +61,7 @@ const Navbar = ({ handleSearch }) => {
                   <div title="profile" className="group relative">
                     <button className="flex items-center gap-2 md:gap-0">
                       <img
+                      loading="lazy"
                         title={loginUser?.others?.username}
                         alt="photos"
                         className="w-8 h-8 object-cover rounded-full border border-gray-500 "

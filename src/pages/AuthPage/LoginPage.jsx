@@ -52,7 +52,7 @@ const LoginPage = () => {
         {/* left */}
         <div className="flex-1 flex items-center justify-center">
           <div className="flex flex-col md:flex-col-reverse items-center justify-between gap-5 w-[250px]">
-            <img src={LoginImage} alt="" />
+            <img loading="lazy" src={LoginImage} alt="" />
             <Link className=" underline" to="/register">
               Create an account
             </Link>

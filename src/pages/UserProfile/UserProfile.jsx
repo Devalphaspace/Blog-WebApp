@@ -67,6 +67,7 @@ const UserProfile = () => {
             <div className="h-[140px] flex md:flex-col gap-6 w-full">
               <div className="relative w-[110px] min-h-[110px]">
                 <img
+                loading="lazy"
                   alt=""
                   className="min-w-[110px] min-h-[110px] object-cover rounded-full border border-gray-300 cursor-pointer"
                   src={`${

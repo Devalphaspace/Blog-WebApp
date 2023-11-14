@@ -76,7 +76,7 @@ const PostPage = () => {
         <form onSubmit={formSubmit} className="flex flex-col space-y-3">
           <div className="img relative h-[350px] bg-white w-full flex items-center justify-center overflow-hidden">
             {photo ? (
-              <img className="h-full w-full object-cover" src={photo} alt="" />
+              <img loading="lazy" className="h-full w-full object-cover" src={photo} alt="" />
             ) : (
               <div className="flex flex-col items-center justify-center">
                 <p>Upload image</p>

@@ -141,6 +141,7 @@ const DetailsPage = () => {
             <div className=" flex-[8] px-3 md:p-0 border-r-2 md:border-r-0 border-gray-200">
               {details.photo && (
                 <img
+                loading="lazy"
                   className="h-[450px] md:h-[300px] w-full object-contain border-gray-300 bg-gray-50 rounded-sm overflow-hidden p-1"
                   src={details.photo.url}
                   alt=""
@@ -214,6 +215,7 @@ const DetailsPage = () => {
                 <div className="flex items-center justify-between">
                   <div className=" flex items-center gap-2">
                     <img
+                    loading="lazy"
                       className="h-[40px] rounded-full w-[40px] object-cover"
                       src="https://img.icons8.com/color/48/null/circled-user-male-skin-type-7--v1.png"
                       alt=""
@@ -280,6 +282,7 @@ const DetailsPage = () => {
                   About us
                 </h3>
                 <img
+                loading="lazy"
                   className=" w-fit object-cover"
                   src="https://cdn.pixabay.com/photo/2015/09/04/23/28/wordpress-923188_960_720.jpg"
                   alt=""

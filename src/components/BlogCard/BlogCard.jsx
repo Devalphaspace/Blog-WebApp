@@ -9,6 +9,7 @@ const BlogCard = ({ post, copyPostLink }) => {
         <div className=" flex flex-col bg-white shadow-md h-[380px] min-w-[200px] rounded-md overflow-hidden hover:shadow-2xl">
           <Link to={`/blog-details/${post._id}`} className=" h-[280px]  overflow-hidden">
             {post.photo && (<img
+            loading="lazy"
               className="h-[280px] w-full object-cover hover:scale-105"
               src={post.photo.url}
               alt=""
@@ -29,6 +30,7 @@ const BlogCard = ({ post, copyPostLink }) => {
             <div className=" flex text-sm font-medium items-center justify-between">
               <div className=" flex items-center space-x-2">
                 <img
+                loading="lazy"
                   alt=""
                   className=" w-8 h-8 object-cover rounded-full border border-gray-500"
                   src="https://img.icons8.com/color/48/null/circled-user-male-skin-type-7--v1.png"

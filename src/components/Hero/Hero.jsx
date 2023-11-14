@@ -29,6 +29,7 @@ const Hero = () => {
     <div className="relative w-full h-[100vh] md:h-[650px] overflow-hidden bg-gray-400">
       <LazyLoad height={800} offsetVertical={500}>
         <img
+        loading="lazy"
           className="w-full h-[100vh] md:h-[800px] object-cover"
           src={randomImgSrc}
           alt=""
